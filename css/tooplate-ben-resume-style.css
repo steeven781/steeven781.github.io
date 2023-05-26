@@ -107,6 +107,17 @@ https://www.tooplate.com/view/2120-ben-resume
     line-height: 2em;
   }
 
+  hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 4px solid rgba(0,0,0,.1);
+  }
+
+  .mb-title {
+      margin-bottom:0rem!important
+    }
+
   .section-padding {
     padding: 6rem 0;
   }
@@ -118,7 +129,6 @@ https://www.tooplate.com/view/2120-ben-resume
     left: 5px;
     transform: rotate(-25deg);
   }
-
 
   /* CUSTOM BUTTON */
   .custom-btn {
@@ -313,6 +323,16 @@ https://www.tooplate.com/view/2120-ben-resume
 	font-size: 2.2em;
   }
 
+  .phone-link {
+    background: var(--dark-color);
+    border-radius: var(--border-radius-medium);
+    color: var(--white-color);
+    display: inline-block;
+    margin: 0.5rem 0;
+    padding: 0.1rem 1rem 0.1rem 1rem;
+	font-size: 2.2em;
+  }
+
   .email-link {
     background: var(--primary-color);
     color: var(--dark-color);
@@ -320,7 +340,21 @@ https://www.tooplate.com/view/2120-ben-resume
     padding: 0.5rem 2rem 1rem 2rem;
   }
 
+  .phone-link {
+    background: var(--primary-color);
+    color: var(--dark-color);
+    font-size: var(--h7-font-size);
+    padding: 0.1rem 1rem 0.2rem 1rem;
+  }
+
+  
+
   .email-link:hover {
+    background: var(--dark-color);
+    color: var(--white-color);
+  }
+
+  .phone-link:hover {
     background: var(--dark-color);
     color: var(--white-color);
   }
@@ -336,10 +370,11 @@ https://www.tooplate.com/view/2120-ben-resume
 
   .about-image {
     border-radius: var(--border-radius-small);
+    padding: 10px;
   }
 
   .profile-list li {
-    margin: 0.3rem 0;
+    margin: 0.9rem 0;
   }
 
   .profile-list strong {
@@ -384,41 +419,41 @@ https://www.tooplate.com/view/2120-ben-resume
 
 
   /*---------------------------------------
-     TESTIMONIALS               
+     TECHNOLOGIES               
   -----------------------------------------*/
 
-  .testimonials {
+  .technologies {
     background: #f9f9f9;
   }
 
-  .testimonials-image {
+  .technologies-image {
     margin: 0 1rem 1rem 1rem;
   }
 
-  .testimonials-image img {
+  .technologies-image img {
     border-radius: var(--border-radius-medium);
   }
 
-  .testimonials-info {
+  .technologies-info {
     width: 100%;
   }
 
-  .testimonials .owl-theme .owl-nav.disabled+.owl-dots {
+  .technologies .owl-theme .owl-nav.disabled+.owl-dots {
     margin-top: 2rem;
   }
 
-  .testimonials .owl-theme .owl-dots .owl-dot {
+  .technologies .owl-theme .owl-dots .owl-dot {
     outline: none;
   }
 
-  .testimonials .owl-theme .owl-dots .owl-dot span {
+  .technologies .owl-theme .owl-dots .owl-dot span {
     width: 30px;
     height: 3px;
     margin: 5px;
   }
 
-  .testimonials .owl-theme .owl-dots .owl-dot.active span, 
-  .testimonials .owl-theme .owl-dots .owl-dot:hover span {
+  .technologies .owl-theme .owl-dots .owl-dot.active span, 
+  .technologies .owl-theme .owl-dots .owl-dot:hover span {
     background: var(--primary-color);
   }
 
@@ -569,6 +604,10 @@ https://www.tooplate.com/view/2120-ben-resume
     .email-link {
       font-size: 28px;
     }
+
+    .phone-link {
+      font-size: 15px;
+    }
   }
 
   @media screen and (max-width: 992px) {
@@ -581,6 +620,11 @@ https://www.tooplate.com/view/2120-ben-resume
     .email-link {
       font-size: 22px;
       padding: 0.5rem 2rem 0.7rem 2rem;
+    }
+
+    .phone-link {
+      font-size: 15px;
+      padding: 0.1rem 1rem 0.2rem 1rem;
     }
   }
 
@@ -612,5 +656,10 @@ https://www.tooplate.com/view/2120-ben-resume
     .email-link {
       font-size: 20px;
       padding: 0.3rem 2rem 0.6rem 2rem;
+    }
+
+    .phone-link {
+      font-size: 15px;
+      padding: 0.1rem 1rem 0.2rem 1rem;
     }
   }
