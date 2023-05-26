@@ -419,41 +419,41 @@ https://www.tooplate.com/view/2120-ben-resume
 
 
   /*---------------------------------------
-     TECHNOLOGIES               
+     TESTIMONIALS               
   -----------------------------------------*/
 
-  .technologies {
+  .testimonials {
     background: #f9f9f9;
   }
 
-  .technologies-image {
+  .testimonials-image {
     margin: 0 1rem 1rem 1rem;
   }
 
-  .technologies-image img {
+  .testimonials-image img {
     border-radius: var(--border-radius-medium);
   }
 
-  .technologies-info {
+  .testimonials-info {
     width: 100%;
   }
 
-  .technologies .owl-theme .owl-nav.disabled+.owl-dots {
+  .testimonials .owl-theme .owl-nav.disabled+.owl-dots {
     margin-top: 2rem;
   }
 
-  .technologies .owl-theme .owl-dots .owl-dot {
+  .testimonials .owl-theme .owl-dots .owl-dot {
     outline: none;
   }
 
-  .technologies .owl-theme .owl-dots .owl-dot span {
+  .testimonials .owl-theme .owl-dots .owl-dot span {
     width: 30px;
     height: 3px;
     margin: 5px;
   }
 
-  .technologies .owl-theme .owl-dots .owl-dot.active span, 
-  .technologies .owl-theme .owl-dots .owl-dot:hover span {
+  .testimonials .owl-theme .owl-dots .owl-dot.active span, 
+  .testimonials .owl-theme .owl-dots .owl-dot:hover span {
     background: var(--primary-color);
   }
 
